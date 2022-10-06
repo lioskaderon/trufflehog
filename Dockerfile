@@ -1,4 +1,4 @@
-FROM --platform=${BUILDPLATFORM} golang:bullseye as builder
+FROM --platform=${BUILDPLATFORM} golang:bullseye@sha256:2e5d13dadff19571312729ba9472b89d2125adf8d2fc85e6e87f595eb9f980d5 as builder
 
 WORKDIR /build
 COPY . . 
