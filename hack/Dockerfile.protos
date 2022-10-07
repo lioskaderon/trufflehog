@@ -1,6 +1,6 @@
 # trufflesecurity/protos:1.18-0
 
-FROM golang:1.18-buster
+FROM golang:1.18-buster@sha256:fec36c61139b75aef6a90ace391791a1449f8ce806235371873a955991526c1e
 
 ARG TARGETARCH
 ARG TARGETOS
